@@ -80,6 +80,7 @@ ul{
     list-style-type: none;
     margin: 0px;
     padding-left: 135px;
+    width: 670px;
 }
 ul li {
     padding: 15px 15px 0px 15px;
@@ -122,4 +123,36 @@ section h2 a {
 
 section{
     margin: 20px 0px 30px 0px;
+}
+
+.grid-style{
+    display: grid !important;
+    padding: 0;
+    grid-template-columns: auto auto;
+}
+.grid-style li {
+    padding: 0;
+}
+
+.flex-foot{
+    display: flex;
+    padding-left: 150px;
+}
+
+.flex-foot ul {
+    padding-left: 0px;
+}
+
+.flex-foot ul li{
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.lil-adjust{
+    padding: 0px 0px 0px 10px;
+    width: 400px;
+}
+
+footer ul li {
+    padding-top: 0px;
 }
