@@ -8,6 +8,9 @@ header{
     flex-direction: row;
     align-items: center;
     margin: 8px 8px 0px 8px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 .logo {
@@ -66,6 +69,7 @@ header{
     text-align: center;
     height: 14px;
     width: 14px;
+    font-weight: bolder;
 }
 
 .far-right{
@@ -129,14 +133,20 @@ section{
     display: grid !important;
     padding: 0;
     grid-template-columns: auto auto;
+    font-size: 15px;
+    font-weight: bold;
 }
 .grid-style li {
-    padding: 0;
+    padding: 10px 0;
+}
+.grid-style li a{
+    text-decoration: none;
 }
 
 .flex-foot{
     display: flex;
     padding-left: 150px;
+    height: 45px;
 }
 
 .flex-foot ul {
@@ -146,13 +156,48 @@ section{
 .flex-foot ul li{
     padding-left: 0px;
     padding-right: 5px;
+    padding-top: 16px
 }
 
 .lil-adjust{
     padding: 0px 0px 0px 10px;
     width: 400px;
 }
-
+footer{
+    background-color: #afaaaa33;
+}
 footer ul li {
     padding-top: 0px;
+}
+footer nav{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-top: 1px groove;
+    border-color: rgba(10,10,10,0.1);
+}
+
+.gooogle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gooogle i {
+    padding-left: 10px;
+}
+
+.pag{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-left: 0;
+
+
+}
+
+.pag li {
+    padding: 0px 6px;
+    position: relative;
+    left: 30%;
+    color: #656eee;
 }
